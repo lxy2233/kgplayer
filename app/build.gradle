@@ -19,9 +19,6 @@ android {
 }
 
 dependencies {
-    androidTestCompile('com.android.support:support-annotations:26.1.0') {
-        force = true
-    }
     implementation fileTree(dir: 'libs', include: ['*.jar'])
     implementation "com.android.support:appcompat-v7:$rootProject.supportLibraryVersion"
 }
